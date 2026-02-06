@@ -1,9 +1,6 @@
 # Deploying Two EC2 Web Servers Behind an Application Load Balancer Using Terraform
 ## _Highly Available AWS Infrastructure using IaC_
 
-[![Terraform](https://img.shields.io/badge/Terraform-IaC-blueviolet)](https://www.terraform.io/)
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This project demonstrates how to deploy a highly available web infrastructure on AWS using Terraform. It provisions a custom VPC, public subnets across multiple Availability Zones, EC2 instances running Nginx, and an Application Load Balancer (ALB) that distributes HTTP traffic between servers.
 
