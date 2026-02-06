@@ -98,3 +98,11 @@ terraform apply
 
 ##Verify Deployment
 Get ALB DNS:
+terraform output
+
+##Open browser:
+http://<alb-dns-name>
+
+Refresh page and you should see:
+server-1
+server-2
